@@ -1,0 +1,69 @@
+
+body {
+    width: 768px;
+    border: solid 5px seagreen;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+div {
+  margin-top: 30px;
+}
+
+h1 {
+    color: darkorange;
+    text-align: center;
+}
+
+h2 {
+  color: mediumblue;
+  margin-bottom: 2px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+}
+
+.left, .right {
+    padding: 5px;
+    margin: 5px;
+}
+
+.left {
+    float: left;
+    border: solid 2px red;
+}
+
+.right {
+    float: right;
+    border: solid 2px yellow;
+    width: 500px;
+}
+
+#contact {
+
+}
+
+#options {
+    width: 200px;
+}
+
+#banner {
+    margin: auto;
+    border: dashed 5px purple;
+    overflow: hidden;
+}
+
+
+.comingsoon {
+    color: red; 
+}
