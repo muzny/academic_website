@@ -26,6 +26,14 @@ p {
   margin-top: 0px;
 }
 
+a {
+  font-family: "Arial", sans-serif;
+}
+
+a:hover {
+  background-color: purple;
+}
+
 .dot {
   width: 5px;
   height: 5px;
@@ -64,5 +72,23 @@ p {
 
 
 .comingsoon {
-    color: red; 
+    color: red;
+}
+
+.inprogress {
+  color: fuchsia;
+  background-color: #e1dfe1;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e1dfe1;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c6b3f0;
+}
+
+table {
+  border: solid gray 2px;
+  width: 100%;
 }
