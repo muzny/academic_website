@@ -18,8 +18,10 @@ h1 {
 }
 
 h2 {
-  color: mediumblue;
   margin-bottom: 2px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: coral;
 }
 
 p {
@@ -91,4 +93,36 @@ tbody tr:nth-child(even) {
 table {
   border: solid gray 2px;
   width: 100%;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+#menu {
+	margin: 10px;
+	font-family: sans-serif;
+  overflow: hidden;
+  padding: 0;
+}
+
+#menu li {
+	display:block;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+  width: 19%;
+}
+
+#menu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color: black;
+}
+
+
+#menu a:hover {
+	background-color: coral;
 }
